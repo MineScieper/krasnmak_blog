@@ -1,0 +1,29 @@
+/*       Стили страницы        */
+
+.main {
+    padding: 20px 10px 0px 10px;
+}
+
+/* ------------------------- */
+
+
+/*    Стили форм     */
+
+.new_article_form {
+    display: block;
+}
+.new_article_form_item {
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 20px 0px;
+}
+.new_article_label {
+    margin: 0px 0px 10px 0px;
+}
+.new_article_input {
+    border: 1px solid #d1d1d1;
+    font-size: 20px;
+    padding: 10px;
+    overflow-wrap: break-word;
+}
