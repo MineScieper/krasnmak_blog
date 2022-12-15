@@ -31,7 +31,7 @@ class UserRequestsController extends Controller
     }
 
 
-    public function messageRequest(Request $request) {
+    public function textRequest(Request $request) {
         $request->validate([
             'email' => 'required|email',
             'text' => 'required|max:65534',
