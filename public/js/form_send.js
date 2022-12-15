@@ -33,6 +33,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             if (response.ok) {
                 submit_button.classList.add('submitted');
+                submit_button.setAttribute('disabled', 'disabled');
                 submit_button.innerHTML = 'Отправлено!';
                 for (let i = 0, formLen = form.length; i < formLen; i++) {        // Блокировка формы от изменений
                     form.elements[i].readOnly = true;
@@ -43,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     let err = result.errors[error];
                     let error_span = document.createElement('p');
                     error_span.classList.add('error_red');
-                    error_span.innerHTML = `${err[0]}`;                                // создаём <span> с текстом ошибки
+                    error_span.innerHTML = `${err[0]}`;                                // создаём <p> с текстом ошибки
                     errors_container.append(error_span);
 
                     setTimeout(() => error_span.classList.add('error_black'), 500);      // анимация текста ошибки

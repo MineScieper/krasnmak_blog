@@ -163,6 +163,8 @@ return [
         'call_time' => 'удобное время звонка',
         'email' => 'e-mail',
         'text' => 'текст',
+        'email_for_message' => 'e-mail',
+        'message' => 'текст сообщения',
     ],
 
 ];

@@ -5,13 +5,13 @@
   */
 
 .slider_outwrapper {
-    padding: 25px 0px;
+     padding: 0px 0px 15px 0px;
 }
 
 /* стили для корневого элемента слайдера */
 .itcss {
     position: relative;
-    max-width: 800px;
+    max-width: 900px;
     margin-right: auto;
     margin-left: auto;
     border: 1px solid black;

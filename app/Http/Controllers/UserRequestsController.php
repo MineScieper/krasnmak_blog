@@ -29,4 +29,16 @@ class UserRequestsController extends Controller
         UserRequest::create($form);
         return response()->json();
     }
+
+
+    public function messageRequest(Request $request) {
+        $request->validate([
+            'email' => 'required|email',
+            'text' => 'required|max:65534',
+        ]);
+        $request['type'] = 'Сообщение';
+        $form = $request->all();
+        UserRequest::create($form);
+        return response()->json();
+    }
 }

@@ -47,16 +47,16 @@
                 <div id="questionRequestWindow">
                     <form action="##" method="post" class="sidebar_modal_form user_send_form" data-controller-method="questionRequest">
                         @csrf
-                        <div class="input_label" style="font-size: 28px;">
+                        <div class="input_label" style="font-size: 28px">
                             Задать вопрос
                         </div>
                         <div class="form_item">
-                            <label class="input_label" for="email">E-mail</label>
-                            <input class="input" name="email" id="email" type="text" placeholder="Введите Ваш адрес электронной почты">
+                            <label class="input_label" for="email_for_question">E-mail</label>
+                            <input class="input" name="email" id="email_for_question" type="text" placeholder="Введите Ваш адрес электронной почты">
                         </div>
                         <div class="form_item">
-                            <label class="input_label" for="text">Текст</label>
-                            <textarea class="input" name="text" id="text" maxlength="65534" rows="10" placeholder="Напишите свой вопрос"></textarea>
+                            <label class="input_label" for="text_for_question">Текст</label>
+                            <textarea class="input" name="text" id="text_for_question" maxlength="65534" rows="10" placeholder="Напишите свой вопрос"></textarea>
                         </div>
                         <div class="errors_container">
 

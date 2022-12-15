@@ -24,17 +24,23 @@ body {
 }
 
 .submit_button {
+    width: 300px;
+    margin: 0 auto;
     padding: 10px;
     font-size: 20px;
-    background: rgb(82, 128, 185);
-    color: white;
+    /*background: rgb(82, 128, 185);*/
+    background: #ffede6;
+    border: 1px solid rgba(34, 60, 80, 0.1);
+    color: black;
     border-radius: 10px;
     text-align: center;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 .submit_button:hover {
-    background: rgb(102, 148, 205);
+    /*background: rgb(102, 148, 205);*/
+    background: #FADFAD;
 }
 
 .page_title_container {
@@ -83,5 +89,5 @@ body {
 }
 .input_label {
     font-size: 24px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }

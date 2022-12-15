@@ -5,7 +5,8 @@
 
 .template {
     margin-top: 30px;
-    background: rgb(250, 250, 250);
+    /*background: rgb(250, 250, 250);*/
+    background: #ffede6;
     border: 1px solid rgb(200, 200, 200);
     box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
     border-radius: 10px;

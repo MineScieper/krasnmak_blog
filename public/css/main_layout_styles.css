@@ -17,7 +17,8 @@ body.lock {
     left: 0;
     width: 100%;
     z-index: 10;
-    background: rgb(255, 247, 238);
+    /*background: rgb(255, 247, 238);  светло-бежевый */
+    background: #ffede6;
     box-shadow: 0px 5px 5px -5px rgba(34, 60, 80, 0.6);
     font-size: 20px;
 }
@@ -76,9 +77,8 @@ p {
 .page_image_container {
     text-align: center;
     width: 100%;
-    /*height: 40vh;*/
     height: 500px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 .page_image {
     background-position: center;
@@ -108,9 +108,9 @@ p {
 .sidebar {
     align-self: start;
     position: sticky;
-    /*z-index: 2;*/
     top: 100px;
-    background: rgb(255, 247, 238);
+    /*background: rgb(255, 247, 238);*/
+    background: #ffede6;
     box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
     border: 1px solid rgba(34, 60, 80, 0.05);
     border-radius: 15px;
@@ -125,7 +125,7 @@ p {
 }
 .sidebar_content_item {
     /*border: 1px solid rgba(34, 60, 80, 0.2);*/
-    border: 1px solid rgba(34, 60, 80, 0.05);
+    border: 1px solid rgba(34, 60, 80, 0.1);
     border-radius: 15px;
     padding: 10px;
     text-align: center;
@@ -142,6 +142,7 @@ p {
 .sidebar_modal_form {
     text-align: center;
     padding: 20px;
+    line-height: 1;
 }
 
 .errors_container {
@@ -220,7 +221,8 @@ p {
     }
     .header-background {
         position: absolute;
-        background: rgb(255, 247, 238);
+        /*background: rgb(255, 247, 238);*/
+        background: #ffede6;
         width: 100%;
         height: 100%;
         top: 0;
@@ -271,7 +273,8 @@ p {
         left: 0;
         width: 100%;
         height: 100%;
-        background: rgb(255, 247, 238);
+        /*background: rgb(255, 247, 238);*/
+        background: #ffede6;
         transition: all 0.3s ease 0s;
         z-index: 1;
         overflow: auto;
