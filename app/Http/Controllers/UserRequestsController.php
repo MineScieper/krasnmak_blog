@@ -19,19 +19,7 @@ class UserRequestsController extends Controller
     }
 
 
-    public function questionRequest(Request $request) {         // ЕСЛИ ВЫБИВАЕТ 405 (Method not allowed) - проверь web.php!!!!
-        $request->validate([
-            'email' => 'required|email',
-            'text' => 'required|max:65534',
-        ]);
-        $request['type'] = 'Вопрос';
-        $form = $request->all();
-        UserRequest::create($form);
-        return response()->json();
-    }
-
-
-    public function textRequest(Request $request) {
+    public function messageRequest(Request $request) {         // ЕСЛИ ВЫБИВАЕТ 405 (Method not allowed) - проверь web.php!!!!
         $request->validate([
             'email' => 'required|email',
             'text' => 'required|max:65534',

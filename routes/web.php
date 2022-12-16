@@ -24,8 +24,7 @@ Route::post('/login', 'App\Http\Controllers\AuthController@login')->name('login'
 Route::get('/logout', 'App\Http\Controllers\AuthController@logout')->name('logout');
 
 Route::post('/user_request/callRequest', 'App\Http\Controllers\UserRequestsController@callRequest')->name('user_request.callRequest');
-Route::post('/user_request/questionRequest', 'App\Http\Controllers\UserRequestsController@questionRequest')->name('user_request.questionRequest');
-Route::post('/user_request/textRequest', 'App\Http\Controllers\UserRequestsController@textRequest')->name('user_request.textRequest');
+Route::post('/user_request/messageRequest', 'App\Http\Controllers\UserRequestsController@messageRequest')->name('user_request.messageRequest');
 
 Route::get('/{category_slug}', 'App\Http\Controllers\ArticleController@index')->name('article.index');
 Route::get('/{category_slug}/create', 'App\Http\Controllers\ArticleController@create')->name('article.create');

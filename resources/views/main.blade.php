@@ -94,7 +94,7 @@
                 <button data-hystclose class="hystmodal__close">Закрыть</button>
                 <!-- Ваш HTML код модального окна -->
                 <div id="textRequestWindow">
-                    <form action="##" method="post" class="sidebar_modal_form user_send_form" data-controller-method="textRequest">
+                    <form action="##" method="post" class="sidebar_modal_form user_send_form" data-controller-method="messageRequest">
                         @csrf
                         <div class="input_label" style="font-size: 28px">
                             Откликнуться
