@@ -19,7 +19,7 @@ class UserRequestsController extends Controller
     }
 
 
-    public function messageRequest(Request $request) {         // ЕСЛИ ВЫБИВАЕТ 405 (Method not allowed) - проверь web.php!!!!
+    public function questionRequest(Request $request) {         // ЕСЛИ ВЫБИВАЕТ 405 (Method not allowed) - проверь web.php!!!!
         $request->validate([
             'email' => 'required|email',
             'text' => 'required|max:65534',
