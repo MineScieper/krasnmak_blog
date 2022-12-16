@@ -164,6 +164,12 @@ p {
     background: #0BDA51;
 }
 
+.quote {
+    font-size: 23px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-style: italic;
+}
 
 .footer {
     color: #dbdbdb;

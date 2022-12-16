@@ -17,7 +17,7 @@
         <div class="page_image" style="background-image: url(../images/home_photo_1.jpeg)"></div>
     </div>
 
-    <div style="font-size: 23px; text-align: center; margin-bottom: 15px">
+    <div class="quote">
         приглашает Вас к сотрудничеству для реализации ландшафтных проектов <br>
         по технологии озеленения «Красные маки» на плотно застроенных территориях.
     </div>
@@ -39,7 +39,7 @@
         реализовывать частные проекты. Тем не менее, дизайн-студия дополнительно
     </p>
 
-    <div style="font-size: 23px; text-align: center; margin-bottom: 15px">
+    <div class="quote">
         приглашает к сотрудничеству по проектированию и реализации проектов <br>
         на объектах туристических маршрутов <br>
         (парков отдыха, спортивно-развлекательных, образовательных).
@@ -86,7 +86,7 @@
     </div>
 
     <span data-hystmodal="#textRequestWindow" class="submit_button">
-        Откликнуться
+        Оставить сообщение
     </span>
     <div class="hystmodal" id="textRequestWindow" aria-hidden="true">
         <div class="hystmodal__wrap">
@@ -97,7 +97,7 @@
                     <form action="##" method="post" class="sidebar_modal_form user_send_form" data-controller-method="questionRequest">
                         @csrf
                         <div class="input_label" style="font-size: 28px">
-                            Откликнуться
+                            Оставить сообщение
                         </div>
                         <div class="form_item">
                             <label class="input_label" for="email_for_message">E-mail</label>
@@ -130,5 +130,10 @@
             </div>
         </div>
     </div>
+    <br>
+    <p>
+        Если Вас заинтересовали наши предложения, можете оставить сообщение, нажав на кнопку выше
+        или провести индивидуальную консультацию, договорившись о встрече по телефону или электронной почте.
+    </p>
 
 @endsection
