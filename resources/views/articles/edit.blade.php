@@ -34,6 +34,17 @@
                    @endphp
                    value="{{ $titleValue }}">
         </div>
+
+        @if ($errors->any())
+            <div style="margin-bottom: 20px">
+                <ul>
+                    @foreach ($errors->all() as $error)
+                        <li>{{ $error }}</li>
+                    @endforeach
+                </ul>
+            </div>
+        @endif
+
         <div class="new_article_form_item">
             <label for="new_article_category" class="new_article_label">Категория</label>
             <select name="category_id" id="new_article_category" class="new_article_input">
@@ -64,16 +75,6 @@
             </textarea>
         </div>
     </form>
-
-    @if ($errors->any())
-        <div>
-            <ul>
-                @foreach ($errors->all() as $error)
-                    <li>{{ $error }}</li>
-                @endforeach
-            </ul>
-        </div>
-    @endif
 
 @endsection
 

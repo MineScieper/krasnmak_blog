@@ -37,7 +37,7 @@ CKEDITOR.editorConfig = function( config ) {
     config.removePlugins = 'image';
 
     config.autoGrow_bottomSpace = 50;
-    config.autoGrow_maxHeight = 500;
+    config.autoGrow_maxHeight = 480;
     config.autoGrow_onStartup = true;
 
     config.fontSize_defaultLabel = '18';
