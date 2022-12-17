@@ -33,13 +33,17 @@ CKEDITOR.editorConfig = function( config ) {
 	// Simplify the dialog windows.
 	config.removeDialogTabs = 'image:advanced;link:advanced';
 
-    config.extraPlugins = 'image2';
+    config.extraPlugins = 'image2,justify,font,richcombo,floatpanel,panel,listblock,button';
     config.removePlugins = 'image';
-    config.extraPlugins = 'justify';
 
     config.autoGrow_bottomSpace = 50;
     config.autoGrow_maxHeight = 500;
     config.autoGrow_onStartup = true;
+
+    config.fontSize_defaultLabel = '18';
+    config.fontSize_sizes = '18/18px;23/23px;';
+    config.font_defaultLabel = 'GolosUI';
+    config.font_names = '';
 
     // Насильно изменять размер картинки - высоту делать равной 500px, а ширина пропорционально изменяется
     // Принцип работы - изменение функции кнопки 'ОК'

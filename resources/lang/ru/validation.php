@@ -125,7 +125,7 @@ return [
     'starts_with' => 'The :attribute must start with one of the following: :values.',
     'string' => 'The :attribute must be a string.',
     'timezone' => 'The :attribute must be a valid timezone.',
-    'unique' => 'The :attribute has already been taken.',
+    'unique' => ':Attribute уже занят.',
     'uploaded' => 'The :attribute failed to upload.',
     'url' => 'The :attribute must be a valid URL.',
     'uuid' => 'The :attribute must be a valid UUID.',
@@ -160,11 +160,9 @@ return [
 
     'attributes' => [
         'phone_number' => 'номер телефона',
-        'call_time' => 'удобное время звонка',
         'email' => 'e-mail',
         'text' => 'текст',
-        'email_for_message' => 'e-mail',
-        'message' => 'текст сообщения',
+        'title' => 'заголовок'
     ],
 
 ];

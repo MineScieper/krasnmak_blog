@@ -22,7 +22,7 @@
         @csrf
         <div class="new_article_form_item">
             <label class="new_article_label" for="new_article_title">Заголовок статьи</label>
-            <input name="title" type="text" class="new_article_input" id="new_article_title">
+            <input name="title" type="text" class="new_article_input" id="new_article_title" value="{{ old('title') }}">
         </div>
         <div class="new_article_form_item">
             <label for="new_article_category" class="new_article_label">Категория</label>
@@ -34,7 +34,7 @@
         </div>
         <div class="new_article_form_item">
             <label class="new_article_label" for="new_article_content">Текст статьи</label>
-            <textarea name="content" id="textarea_editor"></textarea>
+            <textarea name="content" id="textarea_editor"> {{ old('content') }} </textarea>
         </div>
     </form>
 

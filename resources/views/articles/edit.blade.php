@@ -24,7 +24,15 @@
         @method('patch')
         <div class="new_article_form_item">
             <label class="new_article_label" for="new_article_title">Заголовок статьи</label>
-            <input name="title" type="text" class="new_article_input" id="new_article_title" value="{{ $article->title }}">
+            <input name="title" type="text" class="new_article_input" id="new_article_title"
+                   @php
+                       if (old('title') == '') {
+                           $titleValue = $article->title;
+                       } else {
+                           $titleValue = old('title');
+                       }
+                   @endphp
+                   value="{{ $titleValue }}">
         </div>
         <div class="new_article_form_item">
             <label for="new_article_category" class="new_article_label">Категория</label>
@@ -43,7 +51,17 @@
         </div>
         <div class="new_article_form_item">
             <label class="new_article_label" for="new_article_content">Текст статьи</label>
-            <textarea name="content" id="textarea_editor">{{ $article->content }}</textarea>
+{{--            <textarea name="content" id="textarea_editor">{{ $article->content }}</textarea>--}}
+            <textarea name="content" id="textarea_editor">
+                @php
+                    if (old('content') == '') {
+                        $textareaValue = $article->content;
+                    } else {
+                        $textareaValue = old('content');
+                    }
+                @endphp
+                {{ $textareaValue }}
+            </textarea>
         </div>
     </form>
 
