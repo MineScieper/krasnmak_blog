@@ -73,6 +73,9 @@
                     <div class="itcss__item">
                         <img src="{{ asset('images/slider_on_main_page/7.jpg') }}" alt="" width="100%" height="100%">
                     </div>
+                    <div class="itcss__item">
+                        <img src="{{ asset('images/slider_on_main_page/8.jpg') }}" alt="" width="100%" height="100%">
+                    </div>
                 </div>
             </div>
             <!-- Стрелки для перехода к предыдущему и следующему слайду -->
