@@ -1,4 +1,4 @@
-<header class="header">
+<header class="header lock_padding">
     <div class="header_container">
         <div class="header-background"></div>
         <a href="{{ route('home') }}" class="logo">

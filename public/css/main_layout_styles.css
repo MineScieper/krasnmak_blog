@@ -16,7 +16,7 @@ body.lock {
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 10;
+    z-index: 1;
     /*background: rgb(255, 247, 238);  светло-бежевый */
     background: #ffede6;
     box-shadow: 0px 5px 5px -5px rgba(34, 60, 80, 0.6);
@@ -132,6 +132,7 @@ p {
     display: block;
     color: black;
     cursor: pointer;
+    user-select: none;
 }
 .sidebar_content_item:hover {
     background: #FADFAD;

@@ -88,51 +88,10 @@
         </div>
     </div>
 
-    <span data-hystmodal="#textRequestWindow" class="submit_button">
+    <div class="submit_button modal_button" data-modal-window="textRequestWindow">
         Оставить сообщение
-    </span>
-    <div class="hystmodal" id="textRequestWindow" aria-hidden="true">
-        <div class="hystmodal__wrap">
-            <div class="hystmodal__window" role="dialog" aria-modal="true">
-                <button data-hystclose class="hystmodal__close">Закрыть</button>
-                <!-- Ваш HTML код модального окна -->
-                <div id="textRequestWindow">
-                    <form action="##" method="post" class="sidebar_modal_form user_send_form" data-controller-method="questionRequest">
-                        @csrf
-                        <div class="input_label" style="font-size: 28px">
-                            Оставить сообщение
-                        </div>
-                        <div class="form_item">
-                            <label class="input_label" for="email_for_message">E-mail</label>
-                            <input class="input" name="email" id="email_for_message" type="text" placeholder="Введите Ваш адрес электронной почты">
-                        </div>
-                        <div class="form_item">
-                            <label class="input_label" for="message_theme">Тема сообщения</label>
-                            <select name="message_theme" id="message_theme" class="input">
-                                <option value="Выращивание модульных композиций"> Выращивание модульных композиций </option>
-                                <option value="Ландшафтное озеленение">Ландшафтное озеленение</option>
-                                <option value="Стилизованные каркасные опоры">Стилизованные каркасные опоры</option>
-                                <option value="Заборные панели">Заборные панели</option>
-                                <option value="Фотобордюры">Фотобордюры</option>
-                                <option value="Фотооткрытки">Фотооткрытки</option>
-                            </select>
-                        </div>
-                        <div class="form_item">
-                            <label class="input_label" for="message">Текст сообщения</label>
-                            <textarea class="input" name="text" id="message" maxlength="65534" rows="10" placeholder="Напишите свой вопрос"></textarea>
-                        </div>
-
-                        <div class="errors_container">
-
-                        </div>
-                        <button type="submit" class="submit_button">
-                            Отправить
-                        </button>
-                    </form>
-                </div>
-            </div>
-        </div>
     </div>
+
     <br>
     <p>
         Если Вас заинтересовали наши предложения, можете оставить сообщение, нажав на кнопку выше
