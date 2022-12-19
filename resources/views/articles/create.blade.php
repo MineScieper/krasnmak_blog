@@ -39,7 +39,14 @@
             <label for="new_article_category" class="new_article_label">Категория</label>
             <select name="category_id" id="new_article_category" class="new_article_input">
                 @foreach($categories as $category)
-                    <option value="{{ $category->id }}">{{ $category->name }}</option>
+                    <option
+                        @php
+                            if ($category->id == $main_category->id) {
+                                $selected = 'selected';
+                            } else $selected = '';
+                        @endphp
+                        {{ $selected }}
+                        value="{{ $category->id }}">{{ $category->name }}</option>
                 @endforeach
             </select>
         </div>

@@ -19,7 +19,8 @@ class ArticleController extends Controller
     public function create($category_slug) {
         if (Gate::check('create_and_edit_articles')) {
             $categories = Category::all();
-            return view('articles.create', compact('category_slug', 'categories'));
+            $main_category = Category::where('category_slug', $category_slug)->firstOrFail();
+            return view('articles.create', compact('category_slug', 'categories', 'main_category'));
         }
         return back();
     }

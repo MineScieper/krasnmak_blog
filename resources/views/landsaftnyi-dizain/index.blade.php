@@ -1,7 +1,7 @@
 @extends('layouts.main_layout')
 
 @section('main_title')
-    Статьи
+    Ландшафтный дизайн
 @endsection
 
 @section('page_title')
@@ -19,22 +19,44 @@
 
 
 @section('page_content')
-    <ul class="all_articles_list">
+{{--    <ul class="all_articles_list">--}}
+{{--        @foreach($articles as $article)--}}
+{{--            <li class="all_articles_list_item_li">--}}
+{{--                <a href="{{ route('article.show', [$category_slug, $article->slug]) }}" class="all_articles_list_item">--}}
+{{--                    <div class="all_articles_list_item_title">--}}
+{{--                        {{ $article->title }}--}}
+{{--                    </div>--}}
+{{--                    <div class="all_articles_list_item_text">--}}
+{{--                        @php--}}
+{{--                            $str = $article->content;--}}
+{{--                            $str = strip_tags($str);--}}
+{{--                            $str = str_replace("&nbsp;","",$str);--}}
+{{--                            $str = Str::words($str, 50);--}}
+{{--                        @endphp--}}
+{{--                        {!! $str !!}--}}
+{{--                    </div>--}}
+{{--                </a>--}}
+{{--            </li>--}}
+{{--        @endforeach--}}
+{{--    </ul>--}}
+
+    <div class="page_image_container">
+        <div class="page_image" style="background-image: url(../images/slider_on_main_page/1.jpg); background-position-y: 40%"></div>
+    </div>
+    <div class="page_image_container" style="height: 650px;">
+        <div class="page_image" style="background-image: url(../images/slider_on_main_page/3.jpg); background-position-y: 0%"></div>
+    </div>
+    <div class="page_subtitle">
+        Содержание
+    </div>
+    <ul class="page_link_list">
+        @php
+            $i = 0;
+        @endphp
         @foreach($articles as $article)
-            <li class="all_articles_list_item_li">
-                <a href="{{ route('article.show', [$category_slug, $article->slug]) }}" class="all_articles_list_item">
-                    <div class="all_articles_list_item_title">
-                        {{ $article->title }}
-                    </div>
-                    <div class="all_articles_list_item_text">
-                        @php
-                            $str = $article->content;
-                            $str = strip_tags($str);
-                            $str = str_replace("&nbsp;","",$str);
-                            $str = Str::words($str, 50);
-                        @endphp
-                        {!! $str !!}
-                    </div>
+            <li>
+                <a href="{{ route('article.show', [$category_slug, $article->slug]) }}" class="page_link_list_item">
+                    {{ ++$i .'. Учебный курс «'. $article->title .'»'}}
                 </a>
             </li>
         @endforeach
