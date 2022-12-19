@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="{{ asset('css/clearing_css_file.css') }}">
     <link rel="stylesheet" href="{{ asset('css/common_styles.css') }}">
     <link rel="stylesheet" href="{{ asset('css/main_layout_styles.css') }}">
-    <link rel="stylesheet" href="{{ asset('hystModal-0.4/src/hystmodal.css') }}">
     <link rel="stylesheet" href="{{ asset('css/slider_styles.css') }}">
     <link rel="stylesheet" href="{{ asset('css/modal-window-styles.css') }}">
+    <link rel="shortcut icon" href="{{ asset('images/favicon.png') }}" type="image/png">
 {{--    @stack('insert_styles')--}}
 </head>
 <body>
@@ -35,15 +35,6 @@
 </div>
 <script src="{{ asset('js/slider_script.js') }}"></script>
 <script src="{{ asset('js/script.js') }}"></script>
-<script src="{{ asset('hystModal-0.4/dist/hystmodal.min.js') }}"></script>
-<script>
-    const myModal = new HystModal({
-        linkAttributeName: "data-hystmodal",
-        //настройки, см. API
-        backscroll: false,
-        catchFocus: false,
-    });
-</script>
 <script src="{{ asset('js/phone_form.js') }}"></script>
 <script src="{{ asset('js/form_send.js') }}"></script>
 <script src="{{ asset('js/modal-window-script.js') }}"></script>

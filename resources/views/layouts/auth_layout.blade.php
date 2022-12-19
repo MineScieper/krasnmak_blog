@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="{{ asset('css/clearing_css_file.css') }}">
     <link rel="stylesheet" href="{{ asset('css/common_styles.css') }}">
     <link rel="stylesheet" href="{{ asset('css/auth_styles.css') }}">
+    <link rel="shortcut icon" href="{{ asset('images/favicon.png') }}" type="image/png">
 </head>
 <body>
 <div class="wrapper">

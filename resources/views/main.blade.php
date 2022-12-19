@@ -14,7 +14,7 @@
 
 @section('page_content')
     <div class="page_image_container">
-        <div class="page_image" style="background-image: url(../images/home_photo_1.jpeg)"></div>
+        <div class="page_image" style="background-image: url(../images/home_photo_1.jpg)"></div>
     </div>
 
     <div class="quote">
