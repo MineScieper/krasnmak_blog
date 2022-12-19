@@ -6,9 +6,9 @@
 
 
 @section('page_title')
-    <h3 class="page_title">
-        Дизайн-студия «Красные&nbsp;маки»
-    </h3>
+    <h2 class="category_title">
+        <span style="color: #66FF00;">Дизайн-студия</span> «Красные&nbsp;маки»
+    </h2>
 @endsection
 
 

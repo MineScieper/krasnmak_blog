@@ -5,9 +5,9 @@
 @endsection
 
 @section('page_title')
-    <h3 class="page_title">
+    <h2 class="category_title">
         Фотооткрытки
-    </h3>
+    </h2>
     @if(\Illuminate\Support\Facades\Gate::check('create_and_edit_articles'))
         <div class="crud_link_container">
             <a href="{{ route('article.create', $category_slug) }}" class="crud_link">

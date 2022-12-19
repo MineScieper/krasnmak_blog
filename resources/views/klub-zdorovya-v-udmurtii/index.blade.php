@@ -5,9 +5,9 @@
 @endsection
 
 @section('page_title')
-    <h3 class="page_title">
+    <h2 class="category_title">
         Клуб здоровья в Удмуртии
-    </h3>
+    </h2>
     @if(\Illuminate\Support\Facades\Gate::check('create_and_edit_articles'))
         <div class="crud_link_container">
             <a href="{{ route('article.create', $category_slug) }}" class="crud_link">
@@ -19,22 +19,20 @@
 
 
 @section('page_content')
-    <ul class="all_articles_list">
+    <div class="page_image_container">
+        <div class="page_image" style="background-image: url(''); background-position-y: 0%"></div>
+    </div>
+    <div class="page_subtitle">
+        Содержание
+    </div>
+    <ul class="page_link_list">
+        @php
+            $i = 0;
+        @endphp
         @foreach($articles as $article)
-            <li class="all_articles_list_item_li">
-                <a href="{{ route('article.show', [$category_slug, $article->slug]) }}" class="all_articles_list_item">
-                    <div class="all_articles_list_item_title">
-                        {{ $article->title }}
-                    </div>
-                    <div class="all_articles_list_item_text">
-                        @php // Удаление символа &nbsp в списке статей, который появляется, если сначала идет картинка, а за ней текст
-                            $str = $article->content;
-                            $str = strip_tags($str);
-                            $str = str_replace("&nbsp;","",$str);
-                            $str = Str::words($str, 50);
-                        @endphp
-                        {!! $str !!}
-                    </div>
+            <li>
+                <a href="{{ route('article.show', [$category_slug, $article->slug]) }}" class="page_link_list_item">
+                    {{ ++$i .'. '. $article->title}}
                 </a>
             </li>
         @endforeach
