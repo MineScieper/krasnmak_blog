@@ -63,6 +63,35 @@
     <script src="{{ asset('ckfinder/ckfinder.js') }}"></script>
     <script>
         let editor = CKEDITOR.replace('textarea_editor');
+
+        // editor.on( 'paste', function( evt ) {
+        //     evt.data.dataValue = evt.data.dataValue.replace( /\s*FONT-SIZE: [^\s;]+;?"/gi, "\"" );
+        // });
+
+        editor.on( 'paste', function( evt ) {
+            // Create a standalone filter passing 'p' and 'b' elements.
+            let filter = new CKEDITOR.filter( 'p b u i li ul ol table tbody tr td {text-align}' ),
+                // Parse the HTML string to a pseudo-DOM structure.
+                fragment = CKEDITOR.htmlParser.fragment.fromHtml( evt.data.dataValue ),
+                writer = new CKEDITOR.htmlParser.basicWriter();
+
+            filter.applyTo( fragment );
+            fragment.writeHtml( writer );
+            evt.data.dataValue = writer.getHtml();
+        } );
+
+        // editor.on( 'paste', function( evt ) {
+        //     // Create a standalone filter passing 'p' and 'b' elements.
+        //     let filter = new CKEDITOR.filter( editor ),
+        //         // Parse the HTML string to a pseudo-DOM structure.
+        //         fragment = CKEDITOR.htmlParser.fragment.fromHtml( evt.data.dataValue ),
+        //         writer = new CKEDITOR.htmlParser.basicWriter();
+        //
+        //     filter.applyTo( fragment );
+        //     fragment.writeHtml( writer );
+        //     evt.data.dataValue = writer.getHtml();
+        // } );
+
         CKFinder.setupCKEditor(editor);
     </script>
 @endpush
