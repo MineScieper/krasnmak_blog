@@ -68,17 +68,30 @@
         //     evt.data.dataValue = evt.data.dataValue.replace( /\s*FONT-SIZE: [^\s;]+;?"/gi, "\"" );
         // });
 
-        editor.on( 'paste', function( evt ) {
-            // Create a standalone filter passing 'p' and 'b' elements.
-            let filter = new CKEDITOR.filter( 'p b u i li ul ol table tbody tr td {text-align}' ),
-                // Parse the HTML string to a pseudo-DOM structure.
-                fragment = CKEDITOR.htmlParser.fragment.fromHtml( evt.data.dataValue ),
-                writer = new CKEDITOR.htmlParser.basicWriter();
+        // editor.on( 'paste', function( evt ) {
+        //     // Create a standalone filter passing 'p' and 'b' elements.
+        //     let filter = new CKEDITOR.filter( 'table tbody tr td span p b u i li ul ol {text-align}' ),
+        //         // Parse the HTML string to a pseudo-DOM structure.
+        //         fragment = CKEDITOR.htmlParser.fragment.fromHtml( evt.data.dataValue ),
+        //         writer = new CKEDITOR.htmlParser.basicWriter();
+        //
+        //     filter.applyTo( fragment );
+        //     fragment.writeHtml( writer );
+        //     evt.data.dataValue = writer.getHtml();
+        // } );
 
-            filter.applyTo( fragment );
-            fragment.writeHtml( writer );
-            evt.data.dataValue = writer.getHtml();
-        } );
+        // editor.on( 'paste', function( evt ) {
+        //     // Create a standalone filter passing 'p' and 'b' elements.
+        //     let filter = new CKEDITOR.filter('* [*]{*}(*)'),
+        //         // Parse the HTML string to a pseudo-DOM structure.
+        //         fragment = CKEDITOR.htmlParser.fragment.fromHtml( evt.data.dataValue ),
+        //         writer = new CKEDITOR.htmlParser.basicWriter();
+        //
+        //     editor.filter.disallow('*{font*}');
+        //     filter.applyTo( fragment );
+        //     fragment.writeHtml( writer );
+        //     evt.data.dataValue = writer.getHtml();
+        // } );
 
         // editor.on( 'paste', function( evt ) {
         //     // Create a standalone filter passing 'p' and 'b' elements.

@@ -43,7 +43,8 @@ CKEDITOR.editorConfig = function( config ) {
     config.fontSize_defaultLabel = '18';
     config.fontSize_sizes = '18/18px;23/23px;';
     config.font_defaultLabel = 'GolosUI';
-    config.font_names = '';
+
+    config.font_names = 'GolosUI';// + config.font_names;
 
     // replace( /\s*TEXT-ALIGN: [^\s;]+;?"/gi, "\"" )
 

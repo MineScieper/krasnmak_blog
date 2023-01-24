@@ -97,5 +97,700 @@
         Если Вас заинтересовали наши предложения, можете оставить сообщение, нажав на кнопку выше
         или провести индивидуальную консультацию, договорившись о встрече по телефону или электронной почте.
     </p>
+    <br>
+
+{{--    <tr> - очередная строка, а в ней <td> - очередной столбец--}}
+
+    <div class="page_subtitle">
+        ПРАЙС-ЛИСТ ДИЗАЙН-СТУДИЯ «КРАСНЫЕ МАКИ» <br> СТОИМОСТЬ  ЛАНДШАФТНЫХ РАБОТ  2022 год
+    </div>
+    <table style="margin: 0 auto; border-collapse: collapse">
+        <tbody>
+            <tr>
+                <td class="table_cell column">
+                    <span>
+                        НАИМЕНОВАНИЕ  РАБОТ
+                    </span>
+                </td>
+                <td class="table_cell column">
+                    <span>
+                        ЕДИНИЦА ИЗМЕРЕНИЯ
+                    </span>
+                </td>
+                <td class="table_cell column">
+                    <span>
+                        СТОИМОСТЬ
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="table_cell">
+                    <span class="table_cell_subtitle">
+                        1) ПОДГОТОВИТЕЛЬНЫЕ РАБОТЫ
+                    </span>
+                </td>
+                <td class="table_cell">
+
+                </td>
+                <td class="table_cell">
+
+                </td>
+            </tr>
+            <tr>
+                <td class="table_cell">
+                    <span>
+                        1.1  Сбор строительного мусора
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        куб. метр
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        1000 руб.
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="table_cell">
+                    <span>
+                        1.2  Погрузка в контейнер вручную
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        куб. метр
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        1000 руб.
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="table_cell">
+                    <span>
+                        1.3  Вывоз мусора в контейнерах
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        куб. метр
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        1000 руб.
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="table_cell">
+                    <span>
+                        1.4  Очистка территории от кустарников
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        за 1 шт.
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        300 руб.
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="table_cell">
+                    <span>
+                        1.5  Корчевка  пней
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        за 1 шт.
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        1000 руб.
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="table_cell">
+                    <span>
+                        1.6  Прополка участка вручную
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        кв. метр
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        100 руб.
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="table_cell">
+                    <span>
+                        1.7  Снятие и перемещение грунта
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        кв. метр
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        200 руб.
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="table_cell">
+                    <span>
+                        1.8  Геопластика с подъемом земли
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        кв. метр
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        1500 руб.
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="table_cell">
+                    <span class="table_cell_subtitle">
+                        2) РАБОТЫ ПО УСТРОЙСТВУ ПОДЗЕМНЫХ КОММУНИКАЦИЙ
+                    </span>
+                </td>
+                <td class="table_cell">
+
+                </td>
+                <td class="table_cell">
+
+                </td>
+            </tr>
+            <tr>
+                <td class="table_cell">
+                    <span>
+                        2.1  Дренажная система (устр-во песчано-гравийного основания, прокладка труб, соединение труб и ввод в колодец)
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        кв. метр
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        500 руб.
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="table_cell">
+                    <span>
+                        2.2  Установка пластиковых колодцев
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        за 1 шт.
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        15.000 руб.
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="table_cell">
+                    <span>
+                        2.3  Установка бетонных колодцев
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        за 1 кольцо
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        10.000 руб.
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="table_cell">
+                    <span>
+                        2.4  Установка ливневой канализации
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        пог. метр
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        1000 руб.
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="table_cell">
+                    <span>
+                        2.5  Система автоматического и ручного полива (комплекс работ)
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        пог. метр
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        1000 руб.
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="table_cell">
+                    <span class="table_cell_subtitle">
+                        3) РАБОТЫ ПО УСТРОЙСТВУ ДОРОЖЕК, ПЛОЩАДОК, ПОДПОРНЫХ СТЕНОК, ВОДОЕМОВ
+                    </span>
+                </td>
+                <td class="table_cell">
+
+                </td>
+                <td class="table_cell">
+
+                </td>
+            </tr>
+            <tr>
+                <td class="table_cell">
+                    <span>
+                        3.1  Устройство площадок и дорожек на гравийном основании с гранитной посыпкой
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        кв. метр
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        800 руб.
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="table_cell">
+                    <span>
+                        3.2  Устройство площадок и дорожек из природного камня на щебеночно-песчаном основании
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        кв. метр
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        800 руб.
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="table_cell">
+                    <span>
+                        3.3  Устройство  мульчирующего слоя из коры
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        кв. метр
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        300 руб.
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="table_cell">
+                    <span>
+                        3.4  Устройство подпорных стенок из бетона
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        пог. метр
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        5000 руб.
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="table_cell">
+                    <span>
+                        3.5  Устройство подпорных стенок из камня
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        пог. метр
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        3000 руб.
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="table_cell">
+                    <span>
+                        3.6  Устройство альпийской горки
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        кв. метр
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        5000 руб.
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="table_cell">
+                    <span>
+                        3.7  Устройство декоративных водоемов
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        кв. метр
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        5000 руб.
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="table_cell">
+                    <span class="table_cell_subtitle">
+                        4) РАБОТЫ ПО ОЗЕЛЕНЕНИЮ
+                    </span>
+                </td>
+                <td class="table_cell">
+
+                </td>
+                <td class="table_cell">
+
+                </td>
+            </tr>
+            <tr>
+                <td class="table_cell">
+                    <span>
+                        4.1  Посадочные работы многолетних травянистых растений с подсыпкой грунта и комплексных удобрений
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        кв. метр
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        1000 руб.
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="table_cell">
+                    <span>
+                        4.2  Устройство газона посевного
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        кв. метр
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        700 руб.
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="table_cell">
+                    <span>
+                        4.3  Посадка кустарников
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        за  1 шт.
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        500 руб.
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="table_cell">
+                    <span>
+                        4.4  Посадка деревьев
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        за  1 шт.
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        1000 руб.
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="table_cell">
+                    <span>
+                        4.5  Посадка модульных композиций в соответствии с картой посадки
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        за  1  модуль
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        2000 руб.
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="table_cell">
+                    <span>
+                        4.6  Установка каркасных опор ( для трехмерных клумб)
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        за  1  модуль
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        1000 руб.
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="table_cell">
+                    <span>
+                        4.7  Установка  МАФ и садовой мебели
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        за  1 шт.
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        1000 руб.
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="table_cell">
+                    <span>
+                        4.8  Контроль специалиста по ландш.дизайну при выполнении работ по проекту
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        за  1 час
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        500 руб.
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="table_cell">
+                    <span class="table_cell_subtitle">
+                        5) РАБОТЫ ПО УХОДУ ЗА РАСТЕНИЯМИ
+                    </span>
+                </td>
+                <td class="table_cell">
+
+                </td>
+                <td class="table_cell">
+
+                </td>
+            </tr>
+            <tr>
+                <td class="table_cell">
+                    <span>
+                        5.1  Уход за газоном (стрижка, прополка)
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        за 100 кв.метров
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        3000 руб.
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="table_cell">
+                    <span>
+                        5.2  Уход за деревьями и кустарниками <br> — обрезка кроны <br> — прополка и рыхление прикорневой зоны
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        <br> за  1 шт./ пог. метр <br> кв. метр
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        <br> 400 руб./200 руб. <br> 200 руб.
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="table_cell">
+                    <span>
+                        5.3  Уход за цветниками
+                        <br> — прополка и рыхление
+                        <br> — рассаживание многолетних травянистых растений
+                        <br> — полив растений
+                        <br> — укрытие и обрезка растений на зиму
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        <br> кв. метр
+                        <br> кв. метр
+                        <br>
+                        <br> за 1 час
+                        <br> за 1 час
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                    <br> 100 руб.
+                    <br> 500 руб.
+                    <br>
+                    <br> 500 руб.
+                    <br> 500 руб.
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="table_cell">
+                    <span class="table_cell_subtitle">
+                        6) ДОГОВОР УСЛУГ НА ПРОЕКТИРОВАНИЕ УЧАСТКА
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        30 % от НМЦК (от стоимости проекта)
+                    </span>
+                </td>
+                <td class="table_cell">
+
+                </td>
+            </tr>
+            <tr>
+                <td class="table_cell">
+                    <span class="table_cell_subtitle">
+                        7) ДОГОВОР УСЛУГ НА СОЗДАНИЕ РАБОЧЕГО ПРОЕКТА
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        10 % от НМЦК (от стоимости проекта)
+                    </span>
+                </td>
+                <td class="table_cell">
+
+                </td>
+            </tr>
+            <tr>
+                <td class="table_cell">
+                    <span class="table_cell_subtitle">
+                        8) ДОГОВОР УСЛУГ НА ИСПОЛЬЗОВАНИЕ «МОДУЛЬНЫХ» ПРОЕКТОВ ПО ТЕХНОЛОГИИ «КРАСНЫЕ МАКИ»
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        20 % от НМЦК (от стоимости проекта)
+                    </span>
+                </td>
+                <td class="table_cell">
+
+                </td>
+            </tr>
+            <tr>
+                <td class="table_cell">
+                    <span class="table_cell_subtitle">
+                        9) РАБОТЫ ПО ВЫРАЩИВАНИЮ МОДУЛЬНЫХ КОМПОЗИЦИЙ
+                    </span>
+                </td>
+                <td class="table_cell">
+                    <span>
+                        20 % от НМЦК (от стоимости проекта)
+                    </span>
+                </td>
+                <td class="table_cell">
+
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
 
 @endsection
