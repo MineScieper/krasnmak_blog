@@ -38,8 +38,8 @@
         @endforeach
     </ul>
 
-    <a href="{{ asset('download_files/График занятий по учебным курсам.docx') }}">
-        График занятий по учебным курсам.docx
+    <a href="{{ asset('download_files/График занятий по учебным курсам.pdf') }}" target="_blank">
+        График занятий по учебным курсам.pdf
     </a>
 @endsection
 
