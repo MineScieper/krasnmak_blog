@@ -34,6 +34,7 @@
     @include('layouts.modal_windows')
 </div>
 <script src="{{ asset('js/slider_script.js') }}"></script>
+<script src="{{ asset('js/spoilers.js') }}"></script>
 <script src="{{ asset('js/script.js') }}"></script>
 <script src="{{ asset('js/phone_form.js') }}"></script>
 <script src="{{ asset('js/form_send.js') }}"></script>

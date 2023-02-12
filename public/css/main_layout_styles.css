@@ -172,8 +172,55 @@ p {
     font-style: italic;
 }
 
-/* table styles */
+/* spoilers styles */
 
+.spoiler_block {
+    font-size: 20px;
+    margin-bottom: 25px;
+    border: 1px solid rgba(34, 60, 80, 0.3);
+    border-radius: 10px;
+}
+.spoiler_title {
+    background: #ffede6;
+    position: relative;
+    padding: 10px;
+    border-radius: 10px;
+}
+.spoiler_title._active {
+    border-bottom: 1px solid rgba(34, 60, 80, 0.3);
+    border-radius: 10px 10px 0 0;
+}
+.spoiler_block._init .spoiler_title {
+    cursor: pointer;
+}
+.spoiler_block._init .spoiler_title::before,
+.spoiler_block._init .spoiler_title::after {
+    content: "";
+    width: 20px;
+    height: 1px;
+    background: #000;
+    position: absolute;
+    right: 20px;
+    top: 25px;
+    transition: transform 0.5s ease 0s;
+}
+.spoiler_block._init .spoiler_title::after {
+    transform: rotate(-90deg);
+}
+.spoiler_block._init .spoiler_title._active::after {
+    transform: rotate(0deg);
+}
+.spoiler_content {
+    padding: 20px;
+}
+
+/* ------------ */
+
+/* table styles */
+.table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
 .table_cell {
     border: 1px solid black;
     vertical-align: top;
