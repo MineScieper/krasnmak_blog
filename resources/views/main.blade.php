@@ -1021,7 +1021,7 @@
         </div>
     </div>
 
-    <a href="{{ asset('download_files/Бланк договора подряда на выполнение проектных работ.pdf') }}" target="_blank">
+    <a class="page_link_list_item" href="{{ asset('download_files/Бланк договора подряда на выполнение проектных работ.pdf') }}" target="_blank">
         Бланк договора подряда на выполнение проектных работ.pdf
     </a>
 

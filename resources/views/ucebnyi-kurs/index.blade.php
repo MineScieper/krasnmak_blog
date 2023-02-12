@@ -38,7 +38,7 @@
         @endforeach
     </ul>
 
-    <a href="{{ asset('download_files/График занятий по учебным курсам.pdf') }}" target="_blank">
+    <a class="page_link_list_item" href="{{ asset('download_files/График занятий по учебным курсам.pdf') }}" target="_blank">
         График занятий по учебным курсам.pdf
     </a>
 @endsection
