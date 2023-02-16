@@ -38,8 +38,8 @@
         @endforeach
     </ul>
 
-    <a class="page_link_list_item" href="{{ asset('download_files/График занятий по учебным курсам.pdf') }}" target="_blank">
-        График занятий по учебным курсам.pdf
+    <a class="page_link_list_item" href="{{ asset('download_files/Каталог №9 Учебные курсы Красные маки с графиком учебного плана.pdf') }}" target="_blank">
+        Каталог №9 Учебные курсы Красные маки с графиком учебного плана.pdf
     </a>
 @endsection
 

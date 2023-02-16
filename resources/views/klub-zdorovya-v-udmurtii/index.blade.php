@@ -19,8 +19,11 @@
 
 
 @section('page_content')
-    <div class="page_image_container">
-        <div class="page_image" style="background-image: url(''); background-position-y: 0%"></div>
+    <div class="page_image_container" style="display: flex; margin: 0 auto; width: 900px; justify-content: space-around;">
+{{--        <div class="page_image" style="background-image:url(../images/klub-zdorovya-v-udmurtii_photo_1.jpg); background-position-y: 0%"></div>--}}
+{{--        <div class="page_image" style="background-image: url(../images/klub-zdorovya-v-udmurtii_photo_2.jpg); background-position-y: 0%"></div>--}}
+        <img src="../images/klub-zdorovya-v-udmurtii_photo_1.jpg" alt="" style="max-width: 45%;">
+        <img src="../images/klub-zdorovya-v-udmurtii_photo_2.jpg" alt="" style="max-width: 45%">
     </div>
     <div class="page_subtitle">
         Содержание
