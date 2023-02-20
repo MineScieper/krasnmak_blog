@@ -1024,6 +1024,9 @@
     <a class="page_link_list_item" href="{{ asset('download_files/Бланк договора подряда на выполнение проектных работ.pdf') }}" target="_blank">
         Бланк договора подряда на выполнение проектных работ.pdf
     </a>
+    <a class="page_link_list_item" href="{{ asset('download_files/Бланк договора подряда на услуги по выполнению ландшафтных работ.pdf') }}" target="_blank">
+        Бланк договора подряда на услуги по выполнению ландшафтных работ.pdf
+    </a>
 
 
 @endsection
