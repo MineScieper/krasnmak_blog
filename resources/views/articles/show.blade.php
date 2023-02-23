@@ -1,4 +1,4 @@
-@extends('layouts.main_layout')
+@extends('layouts.main_layout_without_sidebar')
 
 @section('main_title')
     {{ $article->title }}

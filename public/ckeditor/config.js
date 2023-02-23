@@ -50,22 +50,22 @@ CKEDITOR.editorConfig = function( config ) {
 
     // Насильно изменять размер картинки - высоту делать равной 500px, а ширина пропорционально изменяется
     // Принцип работы - изменение функции кнопки 'ОК'
-    CKEDITOR.on('dialogDefinition', function (ev) {
-        var dialogName = ev.data.name,
-            dialogDefinition = ev.data.definition;
-        if (dialogName == 'image2') {
-            var onOk = dialogDefinition.onOk;
-            dialogDefinition.onOk = function (e) {
-                var width = this.getContentElement('info', 'width');
-                width.setValue('null');// Set Default Width
-                if (this.getContentElement('info', 'height').getValue() < 500) {
-                    this.getContentElement('info', 'height').setValue('500');
-                }
-                if (this.getContentElement('info', 'align').getValue() === 'none') {
-                    this.getContentElement('info', 'align').setValue('center');
-                }
-                onOk && onOk.apply(this, e);
-            };
-        }
-    });
+    // CKEDITOR.on('dialogDefinition', function (ev) {
+    //     var dialogName = ev.data.name,
+    //         dialogDefinition = ev.data.definition;
+    //     if (dialogName == 'image2') {
+    //         var onOk = dialogDefinition.onOk;
+    //         dialogDefinition.onOk = function (e) {
+    //             var width = this.getContentElement('info', 'width');
+    //             width.setValue('null');// Set Default Width
+    //             if (this.getContentElement('info', 'height').getValue() < 500) {
+    //                 this.getContentElement('info', 'height').setValue('500');
+    //             }
+    //             if (this.getContentElement('info', 'align').getValue() === 'none') {
+    //                 this.getContentElement('info', 'align').setValue('center');
+    //             }
+    //             onOk && onOk.apply(this, e);
+    //         };
+    //     }
+    // });
 };
