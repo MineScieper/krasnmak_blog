@@ -1,7 +1,26 @@
 // -----------------------------------------------------------------------
+// <form action="##" method="post" class="sidebar_modal_form user_send_form" data-controller-method="callRequest">
+//      @csrf
+//      <div class="form_item">
+//          <label class="input_label" for="call_time">Удобное время звонка</label>
+//          <input class="input" id="call_time">
+//      </div>
+//      <div class="errors_container">
+//
+//      </div>
+//      <button type="submit" class="submit_button">
+//          Отправить
+//      </button>
+//  </form>
+//
 // Форма должна иметь:
-// 1) Селектор .user_send_form
+// 1) Css-селектор .user_send_form
 // 2) Дата-атрибут data-controller-method со значением в виде исполняемого метода контроллера-обработчика запроса
+//    К примеру, если в контроллере Laravel есть public function callRequest(Request $request){},
+//                                          то data-controller-method = "callRequest"
+//
+// Кнопка отправки формы должна иметь css-селектор "submit_button"
+// В самой форме должен быть пустой <div> с css-селектором "errors_container" (для вывода ошибок при валидации формы средствами Laravel)
 // -----------------------------------------------------------------------
 document.addEventListener('DOMContentLoaded', function () {
 
@@ -18,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             let formData = new FormData(form);
 
-            let response = await fetch('/user_request/' + formControllerMethod, {
+            let response = await fetch('/user_request/' + formControllerMethod, { // Указываем путь к методу контроллера
                 method: 'POST',
                 headers: {
                     'Accept': 'application/json'
@@ -39,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     form.elements[i].readOnly = true;
                 }
 
-            } else if (response.status === 422) {
+            } else if (response.status === 422) {                               // 422 - код ошибки валидации
                 for (let error in result.errors) {
                     let err = result.errors[error];
                     let error_span = document.createElement('p');

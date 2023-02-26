@@ -2,7 +2,6 @@
     <div class="modal_body">
         <div class="modal_content">
             <div class="modal_close"></div>
-
             <form action="##" method="post" class="sidebar_modal_form user_send_form" data-controller-method="callRequest">
                 @csrf
                 <div class="input_label" style="font-size: 28px;">

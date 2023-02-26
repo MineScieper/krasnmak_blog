@@ -1,11 +1,11 @@
-/* -----------HTML разметка-------------
+/* ----------- HTML-разметка -----------
     Структура модального окна:
 
 <div id="modal_id" class="modal">
     <div class="modal_body">
         <div class="modal_content">
-        <div class="modal_close"></div>
-        [Содержание модального окна]
+            <div class="modal_close"></div>
+            [Содержание модального окна]
         </div>
     </div>
 </div>
@@ -91,7 +91,7 @@ body.lock {
 .modal {
     background: rgba(0, 0, 0, 0.6);
     transition: all 0.2s ease 0s;
-    z-index: 2;                 /* ДОЛЖЕН БЫТЬ БОЛЬШЕ, ЧЕМ У header */
+    z-index: 2;                         /* должен быть больше, чем у элемента с position: fixed */
 }
 .modal.opened .modal_content {
     transform: scale(1);
