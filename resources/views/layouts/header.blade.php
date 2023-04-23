@@ -12,6 +12,7 @@
                 <li><a href="{{ route('article.index', 'klub-zdorovya-v-udmurtii') }}" class="nav-link"> Клуб здоровья в Удмуртии </a></li>
                 <li><a href="{{ route('article.index', 'turisticeskii-marsrut') }}" class="nav-link"> Туристический маршрут </a></li>
                 <li><a href="{{ route('article.index', 'fotootkrytki') }}" class="nav-link"> Фотооткрытки </a></li>
+                <li><a href="{{ route('article.index', 'tovary') }}" class="nav-link"> Товары </a></li>
             </ul>
         </div>
         <svg class="burger-icon visible"

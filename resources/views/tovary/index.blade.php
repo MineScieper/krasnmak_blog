@@ -1,12 +1,12 @@
 @extends('layouts.main_layout')
 
 @section('main_title')
-    Интерьер с природой
+    Товары
 @endsection
 
 @section('page_title')
     <h2 class="category_title">
-        Интерьер с природой
+        Товары
     </h2>
     @if(\Illuminate\Support\Facades\Gate::check('create_and_edit_articles'))
         <div class="crud_link_container">
@@ -19,8 +19,8 @@
 
 
 @section('page_content')
-    <div class="page_image_container" style="height: 800px">
-        <div class="page_image" style="background-image: url(../images/slider_on_main_page/6.jpg); background-position-y: 0%"></div>
+    <div class="page_image_container" style="height: 600px">
+        <div class="page_image" style="background-position-y: 0%"></div>
     </div>
     <div class="page_subtitle">
         Содержание

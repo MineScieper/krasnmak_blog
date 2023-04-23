@@ -1,7 +1,7 @@
 @extends('layouts.main_layout')
 
 @section('main_title')
-    Статьи
+    Фотооткрытки
 @endsection
 
 @section('page_title')
