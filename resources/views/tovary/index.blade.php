@@ -19,9 +19,19 @@
 
 
 @section('page_content')
-    <div class="page_image_container" style="height: 600px">
-        <div class="page_image" style="background-position-y: 0%"></div>
+    <div class="page_image_container" style="height: 700px">
+        <div class="page_image" style="background-image: url(../images/tovary_photo_1.jpg); background-position-y: 0%"></div>
     </div>
+    <div class="page_image_container" style="height: 899px">
+        <div class="page_image" style="background-image: url(../images/tovary_photo_2.jpg); background-position-y: 0%"></div>
+    </div>
+
+    <p>
+        Наш интернет-магазин предлагает познакомиться с эксклюзивными направлениями товаров для дома,
+        туризма и ландшафтного дизайна. Товары дизайн-студии «Красные маки» разработаны и производятся для реализации
+        технологий «Красные маки», которые Вы можете применять на своём земельном участке и для интерьера дома.
+    </p>
+
     <div class="page_subtitle">
         Содержание
     </div>
