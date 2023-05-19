@@ -1027,6 +1027,12 @@
     <a class="page_link_list_item" href="{{ asset('download_files/Бланк договора подряда на услуги по выполнению ландшафтных работ.pdf') }}" target="_blank">
         Бланк договора подряда на услуги по выполнению ландшафтных работ.pdf
     </a>
+    <a class="page_link_list_item" href="{{ asset('download_files/Бланк заказа на дизайн-модули Красные маки.docx') }}" target="_blank">
+        Бланк заказа на дизайн-модули Красные маки.docx
+    </a>
+    <a class="page_link_list_item" href="{{ asset('download_files/Бланк заказа товаров Красные маки.docx') }}" target="_blank">
+        Бланк заказа товаров Красные маки.docx
+    </a>
 
 
 @endsection
