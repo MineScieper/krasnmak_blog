@@ -2,7 +2,7 @@
     <div class="header_container">
         <div class="header-background"></div>
         <a href="{{ route('home') }}" class="logo">
-            <img src="{{ asset('images/logo_3.png') }}" alt="Наш логотип" class="logo_img">
+            <img src="{{ asset('images/logo_4.png') }}" alt="Переход на главную страницу" class="logo_img">
         </a>
         <div class="header-menu">
             <ul>
