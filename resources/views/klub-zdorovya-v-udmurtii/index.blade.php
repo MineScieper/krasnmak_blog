@@ -19,9 +19,10 @@
 
 
 @section('page_content')
-    <div class="page_image_container" style="display: flex; margin: 0 auto; width: 900px; justify-content: space-around;">
-        <img src="../images/klub-zdorovya-v-udmurtii_photo_1.jpg" alt="" style="max-width: 45%;">
-        <img src="../images/klub-zdorovya-v-udmurtii_photo_2.jpg" alt="" style="max-width: 45%">
+    <div class="page_image_container" style="display: flex; margin: 0 auto; width: 900px; justify-content: space-between;">
+        <img src="../images/klub-zdorovya-v-udmurtii_photo_1.jpg" alt="" style="max-width: 33%">
+        <img src="../images/klub-zdorovya-v-udmurtii_photo_2.jpg" alt="" style="max-width: 33%">
+        <img src="../images/klub-zdorovya-v-udmurtii_photo_3.jpg" alt="" style="max-width: 33%">
     </div>
     <div class="page_subtitle">
         Содержание
