@@ -19,8 +19,11 @@
 
 
 @section('page_content')
-    <div class="page_image_container">
-        <div class="page_image" style="background-image: url(../images/ucebnyi-kurs_photo_1.jpg); background-position-y: 65%"></div>
+    <div class="page_image_container" style="height: 800px">
+        <div class="page_image" style="background-image: url(../images/ucebnyi-kurs_photo_1.jpg); background-position-y: 0%"></div>
+    </div>
+    <div class="page_image_container" style="height: 800px">
+        <div class="page_image" style="background-image: url(../images/ucebnyi-kurs_photo_2.jpg); background-position-y: 30%"></div>
     </div>
     <div class="page_subtitle">
         Каталог прикладных курсов по озеленению на плотно застроенных территориях
