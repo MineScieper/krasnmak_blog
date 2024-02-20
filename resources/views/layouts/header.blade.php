@@ -6,7 +6,7 @@
         </a>
         <div class="header-menu">
             <ul>
-                <li><a href="{{ route('article.index', 'ucebnyi-kurs') }}" class="nav-link"> Учебный курс </a></li>
+                <li><a href="{{ route('article.index', 'ucebnyi-kurs') }}" class="nav-link"> Прикладной учебный курс </a></li>
                 <li><a href="{{ route('article.index', 'landsaftnyi-dizain') }}" class="nav-link"> Ландшафтный дизайн </a></li>
                 <li><a href="{{ route('article.index', 'interer-s-prirodoi') }}" class="nav-link"> Интерьер с природой </a></li>
                 <li><a href="{{ route('article.index', 'klub-zdorovya-v-udmurtii') }}" class="nav-link"> Клуб здоровья в Удмуртии </a></li>
