@@ -13,6 +13,7 @@
                 <li><a href="{{ route('article.index', 'turisticeskii-marsrut') }}" class="nav-link"> Туристический маршрут </a></li>
                 <li><a href="{{ route('article.index', 'fotootkrytki') }}" class="nav-link"> Фотооткрытки и видеоклипы </a></li>
                 <li><a href="{{ route('article.index', 'tovary') }}" class="nav-link"> Товары </a></li>
+                <li><a href="{{ route('article.index', 'investicii') }}" class="nav-link"> Инвестиции </a></li>
             </ul>
         </div>
         <svg class="burger-icon visible"
