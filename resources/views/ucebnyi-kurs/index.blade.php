@@ -35,7 +35,7 @@
         @foreach($articles as $article)
             <li>
                 <a href="{{ route('article.show', [$category_slug, $article->slug]) }}" class="page_link_list_item">
-                    {{ ++$i .'. Учебный курс «'. $article->title .'»'}}
+                    {{ ++$i .'. '. $article->title}}
                 </a>
             </li>
         @endforeach
